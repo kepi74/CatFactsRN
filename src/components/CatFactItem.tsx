@@ -6,8 +6,8 @@ import {
   TouchableOpacity,
   StyleSheet,
 } from 'react-native';
-import {ICatFact} from './types';
-import {ITEM_HEIGHT} from './consts';
+import {ICatFact} from '../types';
+import {ITEM_HEIGHT} from '../consts';
 
 const styles = StyleSheet.create({
   container: {height: ITEM_HEIGHT},

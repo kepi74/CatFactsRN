@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {RouteProp} from '@react-navigation/native';
-import {RootStackParamList} from './types';
+import {RootStackParamList} from '../types';
 
 const styles = StyleSheet.create({
   container: {padding: 20},

@@ -2,10 +2,10 @@ import React from 'react';
 import {View, Text, ActivityIndicator} from 'react-native';
 import {StackNavigationProp} from '@react-navigation/stack';
 
-import useApi from './useApi';
-import {ICatFact, RootStackParamList} from './types';
-import assertNever from './assertNever';
-import CatFactList from './CatFactList';
+import useApi from '../useApi';
+import {ICatFact, RootStackParamList} from '../types';
+import assertNever from '../assertNever';
+import CatFactList from '../components/CatFactList';
 
 interface ICatFacts {
   all: ICatFact[];

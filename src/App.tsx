@@ -2,8 +2,8 @@ import React from 'react';
 import 'react-native-gesture-handler';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import CatListContainer from './CatListContainer';
-import FactDetail from './FactDetail';
+import CatListContainer from './containers/CatListContainer';
+import FactDetail from './components/FactDetail';
 import {RootStackParamList} from './types';
 
 const Stack = createStackNavigator<RootStackParamList>();
