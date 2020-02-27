@@ -9,7 +9,7 @@ import {ITEM_HEIGHT} from './consts';
 const styles = StyleSheet.create({
   container: {padding: 20},
   searchBox: {height: 50},
-  searchInput: {borderColor: 'gray', borderWidth: 1},
+  searchInput: {borderColor: 'gray', borderWidth: 1, height: 30, paddingVertical: 1},
 });
 
 interface ICatFactListProps {
